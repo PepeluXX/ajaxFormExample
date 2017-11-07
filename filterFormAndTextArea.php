@@ -122,13 +122,8 @@ class BuscaAlumnosForm extends FormBase{
                           '#size' => 100,
                           '#maxlength' => 10000,
                            ]; 
-                       
-                        
-                   }
-                   
-                   
-                   
-                    
+                                              
+                   }               
             }
             
             //If the second option is selected in the firs list 'filtro'
@@ -158,12 +153,7 @@ class BuscaAlumnosForm extends FormBase{
                     '#empty_option'=>'-Titulo Aviso-',                
                     ]; 
                    }  
-            }
-          
-            
-           
-             
-            
+            }           
         }
       
       /////////////////////////////////
