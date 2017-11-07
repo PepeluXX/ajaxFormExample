@@ -194,7 +194,7 @@ class BuscaAlumnosForm extends FormBase{
         return $form['cursos_profesor'];
     }
   
-    public funtion validateForm(){TODO}
+    public funtion validateForm(array &$form, FormStateInterface $form_state){TODO}
     
-    public function submitForm(){TODO}
+    public function submitForm(array &$form, FormStateInterface $form_state){TODO}
     
