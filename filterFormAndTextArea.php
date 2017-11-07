@@ -179,6 +179,21 @@ class BuscaAlumnosForm extends FormBase{
         return $form;
     }
     
+  public function updateTextoAviso(array $form, FormStateInterface $form_state){
+        
+        return $form['texto_aviso'];
+    }
+    
+     public function updateTitulosAvisos(array $form, FormStateInterface $form_state){
+        
+        return $form['titulos_avisos'];
+    }
+    
+    public function updateCursosProfesor(array $form, FormStateInterface $form_state){
+        
+        return $form['cursos_profesor'];
+    }
+  
     public funtion validateForm(){TODO}
     
     public function submitForm(){TODO}
